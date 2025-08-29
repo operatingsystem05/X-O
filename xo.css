@@ -1,0 +1,87 @@
+  /* 
+  Spectre font credit: @heartcore.94 / Sonia Kiran
+  */
+
+@font-face {
+    font-family: 'Spectre';
+    src: url('fonts/Spectre-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    margin-right: 10px;
+  }
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
+
+.gameTitle {
+  font-family: "Ballet", cursive;
+  padding-top: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+#Title {
+    font-size: 30px;
+    line-height: 70%;
+}
+
+#TicTacToe {
+    font-size: 45px;
+    color: red;
+}
+
+.cell {
+    border: 2px solid;
+    cursor: pointer;
+    font-family: "Spectre", serif;
+    width: 107px;
+    height: 105px;
+    margin: auto;
+}
+
+.cell:hover {
+    box-shadow: 5px 5px 80px 5px red;
+    background-color: none;
+}
+
+.gameCell {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    font-size: 110px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    line-height: 92%;
+    padding-right: 25px;
+}
+
+.gameTurn {
+    font-family: "Ballet", cursive;
+    font-size: 25px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.restartBtn {
+    border: 10px solid;
+    border-radius: 45%;
+    border-style: dotted;
+    font-family: "Ballet", cursive;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 5px;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.restartBtn:hover {
+    box-shadow: 5px 5px 80px 5px red;
+}
